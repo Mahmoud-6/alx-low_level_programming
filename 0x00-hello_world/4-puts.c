@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- *puts function used
- * main -start functoin
- * return : 0
+ *main - Entry point
+ * 
+ * return: Always 0 (succes)
 */
 int main(void)
 {
