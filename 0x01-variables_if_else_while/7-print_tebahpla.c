@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <time.h>
-/**                                                                                                                                            
- *main - basic function                                                                                                                        
- *Return: 0                                                                                                                                    
+/**
+ *main - basic function
+ *Return: 0
  */
 int main(void)
 {
