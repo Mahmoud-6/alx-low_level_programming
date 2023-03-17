@@ -8,6 +8,7 @@ srand(time(0));
 int main(void)
 {
 int n;
+-Werror=implicit-function-declaration;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
