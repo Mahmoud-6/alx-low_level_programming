@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlip>
 /**
- *main - basic function
- *Return: 0
+ * *main - basic function
+ * *Return: 0
  */
 int main(void)
 {
-for (char c= 'a' ; c <= 'z' ; c++)
+char n;
+for (n = 'a' ; n <= 'z' ; n++)
 {
-putchar(c, "\n");
+putchar(n);
 }
+putchar('\n');
 return (0);
 }
