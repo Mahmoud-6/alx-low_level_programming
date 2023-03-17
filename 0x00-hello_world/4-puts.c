@@ -1,5 +1,7 @@
 #include<stdio.h>
+
 /**
+ *puts function used
  * main -start functoin
  * return : 0
 */
