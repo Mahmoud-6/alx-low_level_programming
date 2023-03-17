@@ -1,15 +1,20 @@
 #include <stdio.h>
 #include <time.h>
 /**
- *main - basic function
- *Return: 0
+ * *main - basic function
+ * *Return: 0
  */
 int main(void)
 {
-for (char c= 'z' ; c >= 'a' ; c--)
+char n,w;
+for (n = 'a' ; n <= 'z' ; n++)
 {
-putchar(c);
+putchar(n);
 }
-putchar("\n");
+for (w = 'A' ; w <= 'Z' ; w++)
+{
+putchar(w);
+}
+putchar('\n');
 return (0);
 }
