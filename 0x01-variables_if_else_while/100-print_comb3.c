@@ -9,9 +9,9 @@ int main(void)
 int n, d;
 for (n = '0' ; n <= '9' ; n++)
 {
-for (d = n+1 ; d <= '9' ; d++)
+for (d = n + 1 ; d <= '9' ; d++)
 {
-if (n != d )
+if (n != d)
 {
 putchar(n);
 putchar(d);
@@ -24,5 +24,6 @@ putchar(' ');
 }
 }
 }
+putchar('\n');
 return (0);
 }
