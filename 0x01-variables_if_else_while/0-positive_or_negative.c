@@ -4,11 +4,13 @@
  *main - basic function
  *Return: 0
  */
-srand(time(0));
+int rand();
+int RAND_MAX();
+srand(time());
 int main(void)
 {
 int n;
- n = rand() - RAND_MAX() / 2;
+n = rand() - RAND_MAX() / 2;
 if (n > 0)
 printf("is positive");
 else if (n == 0)
