@@ -4,7 +4,6 @@
  *main - basic function
  *Return: 0
  */
-putchar();
 int main(void)
 {
 char c;
