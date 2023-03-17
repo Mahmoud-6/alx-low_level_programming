@@ -1,6 +1,6 @@
 #include<stdio.h>
 /** main -start functoin
- * 
+ *
  * return : 0
 */
 int main(void)
