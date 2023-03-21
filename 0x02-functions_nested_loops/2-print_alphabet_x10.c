@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include <sys/print_alphabet_x10.h>
+#include <print_alphabet_x10>
 void print_alphabet_x10();
 /**
 * *main - basic function
