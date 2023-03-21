@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _abs - function that returns the last digit
+* print_last_digit - function that returns the last digit
 * @n: parameters that contains the value
 * Return: x
 */
@@ -9,7 +9,7 @@ int print_last_digit(int n)
 {
 int x;
 x = n % 10;
-if(x < 0)
+if (x < 0)
 {
 x *= -1;
 }
