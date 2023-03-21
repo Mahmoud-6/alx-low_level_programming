@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include "print_alphabet_x10.h"
+#include "other_header.h"
 /**
 * *main - basic function
 *Return: 0
