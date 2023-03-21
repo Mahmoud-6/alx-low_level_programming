@@ -9,7 +9,7 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
-void main(void)
+int man(void)
 {
 _putchar('_');
 _putchar('p');
