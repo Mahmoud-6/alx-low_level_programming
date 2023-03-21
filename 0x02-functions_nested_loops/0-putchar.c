@@ -4,6 +4,8 @@
 /**
 * *main - basic function
 *Return: 0
+*_puthar - function that print char
+*d - the variable which contains the char that want to print
 */
 int _puthar(char d)
 {
