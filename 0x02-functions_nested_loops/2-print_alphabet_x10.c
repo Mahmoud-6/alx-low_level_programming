@@ -1,7 +1,6 @@
-#include <stdlib.h>
-#include <limits.h>
+#include <stdlib.h>>
 #include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
 * *main - basic function
 *Return: 0
@@ -11,7 +10,7 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
-extern void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 char i;
 int j;
