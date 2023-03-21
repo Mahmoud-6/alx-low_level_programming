@@ -3,11 +3,11 @@
 /**
 * _isalpha - function returns 0 or 1
 * @c: parameter that caontains the value
-* Return: 0 or 1 
+* Return: 0 or 1
 */
 int _isalpha(int c)
 {
-  if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
 return (1);
 }
