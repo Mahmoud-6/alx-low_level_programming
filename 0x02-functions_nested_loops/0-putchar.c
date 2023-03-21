@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <main.h>
 /**
 * *main - basic function
 *Return: 0
 */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
+
 int main(void)
 {
 _putchar('_');
