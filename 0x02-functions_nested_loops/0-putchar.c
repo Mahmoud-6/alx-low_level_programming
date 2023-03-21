@@ -2,15 +2,9 @@
 #include <unistd.h>
 #include "main.h"
 /**
-* *main - basic function
-*Return: 0
-*_puthar - function that print char
-*d - the variable which contains the char that want to print
+* main - basic function
+* Return: 0
 */
-int _puthar(char d)
-{
-return (write(1, &d, 1));
-}
 int main(void)
 {
 _putchar('_');
