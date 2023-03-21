@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 /**
 * *main - basic function
 *Return: 0
 */
-static void print_alphabet_x10(void);
+void print_alphabet_x10(void);
 int _putchar(char c)
 {
 return (write(1, &c, 1));
