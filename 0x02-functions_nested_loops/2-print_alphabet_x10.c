@@ -2,18 +2,14 @@
 #include "main.h"
 #include <unistd.h>
 /**
-* *main - basic function
+*print_alphabet_x10 - function prints alphabets 10 times
 *Return: 0
 */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
 void print_alphabet_x10(void)
 {
 char i;
 int j;
-for (j = 1 ; j <= 10 ; j++)
+while (j <= 10)
 {
 for (i = 'a' ; i <= 'z' ; i++)
 {
