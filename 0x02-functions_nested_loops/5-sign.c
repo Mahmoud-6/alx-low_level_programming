@@ -7,13 +7,13 @@
 */
 int print_sign(int n)
 {
-if (c > 0)
+if (n > 0)
 {
 _putchar('+');
 }
 else
 {
-if (c < 0)
+if (n < 0)
 {
 _putchar('-');
 }
