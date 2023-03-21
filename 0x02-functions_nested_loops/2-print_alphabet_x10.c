@@ -1,11 +1,9 @@
-#include <stdlib.h>>
 #include <stdio.h>
 #include "main.h"
 /**
 * *main - basic function
 *Return: 0
 */
-void print_alphabet_x10();
 int _putchar(char c)
 {
 return (write(1, &c, 1));
