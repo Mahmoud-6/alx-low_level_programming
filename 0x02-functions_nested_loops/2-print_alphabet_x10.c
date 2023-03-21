@@ -4,7 +4,7 @@
 * *main - basic function
 *Return: 0
 */
-void print_alphabet_x10(void);
+static void print_alphabet_x10(void);
 int _putchar(char c)
 {
 return (write(1, &c, 1));
