@@ -5,11 +5,11 @@
 * *main - basic function
 *Return: 0
 */
-int _putchar(char c)
+int _puthar(char d)
 {
-return (write(1, &c, 1));
+return (write(1, &d, 1));
 }
-int man(void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
