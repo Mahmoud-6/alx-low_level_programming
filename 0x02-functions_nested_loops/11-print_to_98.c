@@ -21,6 +21,7 @@ else
 printf("%d,", i);
 }
 }
+printf("\n");
 }
 else 
 {
@@ -35,5 +36,6 @@ else
 printf("%d,", j);
 }
 }
+printf("\n");
 }
 }
