@@ -18,7 +18,7 @@ printf("%d", i);
 }
 else
 {
-printf("%d,", i);
+printf("%d, ", i);
 }
 }
 printf("\n");
@@ -33,7 +33,7 @@ printf("%d", j);
 }
 else
 {
-printf("%d,", j);
+printf("%d, ", j);
 }
 }
 printf("\n");
