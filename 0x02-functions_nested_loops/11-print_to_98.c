@@ -23,7 +23,7 @@ printf("%d, ", i);
 }
 printf("\n");
 }
-else 
+else
 {
 for (j = n ; j <= 98 ; j++)
 {
