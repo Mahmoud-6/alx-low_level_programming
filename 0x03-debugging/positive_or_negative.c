@@ -1,8 +1,6 @@
-#include <stdio.h>
 #include "main.h"
 /**
 * positive_or_negative -fumction
-* @i: variable that contain value
 */
 void positive_or_negative(int i)
 {
