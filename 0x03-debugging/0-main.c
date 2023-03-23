@@ -6,6 +6,6 @@
 int main(void)
 {
 int i = 0;
-void postitive_or_negative(int i);
+postitive_or_negative(i);
 return (0);
 }
