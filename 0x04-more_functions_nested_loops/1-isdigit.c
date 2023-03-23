@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - function
+ * _isdigit - function
  * @c: variable that contains a value
  * Return: 0 or 1
  */
