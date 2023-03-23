@@ -2,8 +2,8 @@
 #include "main.h"
 /**
 * positive_or_negative - fumction
-*
-*Return: 0
+* @i: variable that contains value
+* Return: 0
 */
 void positive_or_negative(int i)
 {
