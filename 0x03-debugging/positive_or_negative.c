@@ -3,18 +3,18 @@
 /**
 * postitive_or_negative - tests function that prints if integer is positive or negative
 */
-void postitive_or_negative(int i)
+void positive_or_negative(int i)
 {
 if (i < 0)
 {
-printf("%d is negative\n", i);
+printf("%i is negative\n", i);
 }
-if (i > 0)
+else if (i > 0)
 {
-printf("%d is positive\n", i);
+printf("%i is positive\n", i);
 }
-if (i == 0)
+else
 {
-printf("%d is zero\n", i);
+printf("%i is zero\n", i);
 }
 }
