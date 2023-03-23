@@ -1,22 +1,26 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+#include <time.h>
 /**
-* positive_or_negative - fumction
-* @i: variable that contains value
-* Return: 0
-*/
-void positive_or_negative(int i)
+ *main - basic function
+ *Return: 0
+ */
+int positive_or_negative(void)
 {
-if (i < 0)
+int n;
+srand(time(0));
+n = 0;
+if (n > 0)
 {
-printf("%i is negative\n", i);
+printf("%d is positive\n", n);
 }
-else if (i > 0)
+else if (n == 0)
 {
-printf("%i is positive\n", i);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("%i is zero\n", i);
+printf("%d is negative\n", n);
 }
+return (0);
 }
