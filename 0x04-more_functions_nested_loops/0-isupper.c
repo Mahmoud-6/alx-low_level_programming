@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _isupper - function
  * @c: variable that contains a value
