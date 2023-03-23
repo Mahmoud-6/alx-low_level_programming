@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,8 +8,9 @@
 int main(void)
 {
 int p;
+
 p = 0;
 positive_or_negative(p);
+
 return (0);
 }
-
