@@ -17,7 +17,7 @@ else if (x % 5 == 0)
 {
 printf("Buzz");
 }
-else if ((x % 3 == 0) && (x % 5 == 0))
+else if (x % 3 == 0 && x % 5 == 0)
 {
 printf("FizzBuzz");
 }
