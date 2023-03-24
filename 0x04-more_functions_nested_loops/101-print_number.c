@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* print_number - function.* @n: variable that cotains value.*
-* Return: Nothing!
-*  Return: null
+* print_number - function.
+* @n: variable that cotains value.
+* Return: null
 */
 void print_number(int n)
 {
