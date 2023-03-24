@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - basic function
  * Return: 0
@@ -26,7 +27,7 @@ printf("%d", x);
 }
 if (x != 100)
 {
-printf("  ");
+printf(" ");
 }
 }
 printf("\n");
