@@ -2,7 +2,8 @@
 /**
 * print_number - function.* @n: variable that cotains value.*
 * Return: Nothing!
-*/ Return: null
+*  Return: null
+*/
 void print_number(int n)
 {
 unsigned int a = n;
@@ -14,6 +15,8 @@ _putchar('-');
 }
 a /= 10;
 if (a != 0)
+{
 print_number(a);
+}
 _putchar((unsigned int) n % 10 + '0');
 }
