@@ -23,7 +23,7 @@ printf("FizzBuzz");
 }
 else
 {
-printf("%d", x);
+printf("%i", x);
 }
 if (x != 100)
 {
