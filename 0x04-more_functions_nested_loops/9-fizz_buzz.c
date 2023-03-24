@@ -6,26 +6,26 @@
 */
 int main(void)
 {
-int x;
-for (x = 1; x <= 100; x++)
+int c;
+for (c = 1; c <= 100; c++)
 {
-if ((x % 3 == 0) && (x % 5 == 0))
+if ((c % 3 == 0) && (c % 5 == 0))
 {
 printf("FizzBuzz");
 }
-else if (x % 3 == 0)
+else if (c % 3 == 0)
 {
 printf("Fizz");
 }
-else if (x % 5 == 0)
+else if (c % 5 == 0)
 {
 printf("Buzz");
 }
 else
 {
-printf("%d", x);
+printf("%d", c);
 }
-if (x != 100)
+if (c != 100)
 {
 printf(" ");
 }
