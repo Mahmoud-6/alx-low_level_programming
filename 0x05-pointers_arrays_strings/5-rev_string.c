@@ -5,22 +5,23 @@
  * Return: Null
  */
 void rev_string(char *s)
-{int i, c, j;
-char *p, e;
-p = s;
+{
+int i, c, k;
+char *a, aux;
+a = s;
 while (s[c] != '\0')
 {
 c++;
 }
-for (j = 1; j < c; j++)
+for (k = 1; k < c; k++)
 {
-p++;
+a++;
 }
 for (i = 0; i < (c / 2); i++)
 {
-e = s[i];
-s[i] = *p;
-*p = e;
-p--;
+aux = s[i];
+s[i] = *a;
+*a = aux;
+a--;
 }
 }
