@@ -10,5 +10,6 @@ int length;
 for (s = 0 ; *s != '\0' ; s++)
 {
 length++;
+}
 return (length);
 }
