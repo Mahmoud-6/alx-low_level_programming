@@ -12,7 +12,7 @@ while (dest[c] != '\0')
 {
 c++;
 }
-for (i = 0 ; src[i] != 0 ; i++ , c++)
+for (i = 0 ; src[i] != '\0' ; i++, c++)
 {
 dest[c] = src[i];
 }
