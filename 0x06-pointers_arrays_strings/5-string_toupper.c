@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * tring_toupper - function
+ * string_toupper - function
  * @a: variable that contain value
  * Return: a
  */
