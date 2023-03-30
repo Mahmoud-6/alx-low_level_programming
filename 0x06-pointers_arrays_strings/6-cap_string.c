@@ -1,32 +1,24 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-  * cap_string - ...
-  * @s: ...
-  *
-  * Return: char value
-  */
-char *cap_string(char *s)
+ * cap_string - function
+ * @a: variable that contain value
+ * Return: a
+ */
+char *cap_string(char *a)
 {
-	int a = 0, i;
-	int cspc = 13;
-	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
-
-	while (s[a])
-	{
-		i = 0;
-
-		while (i < cspc)
-		{
-			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
-				s[a] -= 32;
-
-			i++;
-		}
-
-		a++;
-	}
-
-	return (s);
+int c = 0, i;
+int r = 13;
+char s[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+while (a[c])
+{
+i = 0;
+while (i < r)
+{
+if ((c == 0 || a[c - 1] == s[i]) && (a[c] >= 97 && a[c] <= 122))
+a[c] -= 32;
+i++;
+}
+c++;
+}
+return (a);
 }
