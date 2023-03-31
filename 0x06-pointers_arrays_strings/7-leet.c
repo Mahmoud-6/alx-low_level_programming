@@ -6,22 +6,19 @@
  */
 char *leet(char *a)
 {
-int i, j = 0, c = 0;
-char s[] = {'A', 'E', 'O', 'T', 'l'};
-char s2[] = {'4', '3', '0', '7', '1'};
-while (a[c] != '\0')
+int i, j;
+char s[5] = {'A', 'E', 'O', 'T', 'L'};
+char s2[5] = {'4', '3', '0', '7', '1'};
+for (i = 0 ; a[i] != '\0' ; i++)
 {
-c++;
-}
-for (i = 0 ; i < c ; i++)
-{
+j = 0;
 while (j < 5)
 {
-if (a[i] == s[j] || a[i] == s[j] - 32)
+if (a[i] == s[j] || (a[i] - 32) == (s[j]))
 {
 a[i] = s2[j];
-j++;
 }
+j++;
 }
 }
 return (a);
