@@ -25,5 +25,5 @@ if (x > n)
 {
 return (-1);
 }
-return (sqr(n, y + 1));
+return (sqr(n, i + 1));
 }
