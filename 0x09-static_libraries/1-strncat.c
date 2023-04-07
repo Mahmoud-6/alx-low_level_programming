@@ -2,7 +2,7 @@
 /**
  * _strncat - function
  * @dest: value
- * @stc: value
+ * @src: value
  * @n: value
  * Return: result
  */
