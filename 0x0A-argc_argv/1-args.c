@@ -1,5 +1,4 @@
-#include <stdlib.h>
-"main.h"
+#include "main.h"
 /**
  * main - function
  * @argc: variable
