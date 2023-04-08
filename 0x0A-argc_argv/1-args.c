@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "main.h"
+"main.h"
 /**
  * main - function
  * @argc: variable
@@ -9,6 +9,6 @@
 int main(int argc, char *argv[])
 {
 (void) argv;
-printf ("%d", argc - 1);
+printf("%d\n", argc - 1);
 return (0);
 }
