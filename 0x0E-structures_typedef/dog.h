@@ -2,7 +2,11 @@
 #define _HEADER_
 #include <stdio.h>
 /**
- *struct dog - function
+ * struct dog - function
+ * @name: variable
+ * @age: variable
+ * @owner: variable
+ * Description: information about the dog
  */
 struct dog
 {
