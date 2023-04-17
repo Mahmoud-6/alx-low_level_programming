@@ -6,7 +6,12 @@
  */
 void print_dog(struct dog *d)
 {
-if (d)
+char* p = NULL;
+if (d == NULL)
+{
+printf("%s",p);
+}
+else if (d)
 {
 (*d).name ? printf("Name: %s\n", (*d).name) : printf("Name: (nil)");
 printf("Age: %f\n", (*d).age);
