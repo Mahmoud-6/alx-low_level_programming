@@ -17,7 +17,9 @@ d = malloc(sizeof(dog_t));
 if (d == 0)
 return (NULL);
 while (name[i])
+{
 i++;
+}
 (*d).name = malloc(i *sizeof(char));
 if ((*d).name == NULL)
 {
@@ -30,7 +32,9 @@ for (j = 0 ; j < i ; j++)
 }
 (*d).age = age;
 while (owner[k])
+{
 k++;
+}
 (*d).owner = malloc(k *sizeof(char));
 if ((*d).owner == NULL)
 {
