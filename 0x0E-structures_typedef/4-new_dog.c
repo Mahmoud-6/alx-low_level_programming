@@ -17,7 +17,7 @@ if (dog == NULL)
 return (NULL);
 if (name != NULL)
 {
-while (name[i] != NULL)
+while (name[i] != '\0')
 {
 i += 1;
 }
@@ -47,5 +47,5 @@ for (l = 0; l < j; l += 1)
 (*dog).name[k] = '\0';
 (*dog).owner[l] = '\0';
 (*dog).age = age;
-return (_dog);
+return (dog);
 }
