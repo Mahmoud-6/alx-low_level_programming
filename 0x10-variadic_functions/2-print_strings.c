@@ -8,15 +8,15 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
-int s;
+char *s;
 va_list list;
 va_start(list, n);
 for (i = 0; i < n; i++)
 {
-s = va_arg(list, int);
+s = va_arg(list, char *);
 if (s)
 {
-printf("%d", s);
+printf("%s", s);
 }
 else
 {
