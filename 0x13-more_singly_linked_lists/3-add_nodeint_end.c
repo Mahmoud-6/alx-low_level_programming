@@ -28,5 +28,5 @@ l = l->next;
 }
 l->next = node;
 }
-return (*head)
+return (*head);
 }
