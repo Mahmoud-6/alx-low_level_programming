@@ -2,6 +2,7 @@
 /**
  * free_listint - function
  * @head: value
+ * Return: NULL
  */
 void free_listint(listint_t *head)
 {
