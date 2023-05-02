@@ -11,7 +11,7 @@ if (head == NULL)
 {
 return;
 }
-while (head)
+while (*head)
 {
 k = (*head)->next;
 free(*head);
