@@ -27,6 +27,6 @@ return (NULL);
 c = c->next;
 }
 k->next = c->next;
-c->next = k
-return (k)
+c->next = k;
+return (k);
 }
