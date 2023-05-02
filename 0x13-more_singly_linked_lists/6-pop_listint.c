@@ -13,5 +13,6 @@ return (0);
 k = *head;
 a = (*head)->n;
 *head = (*head)->next;
+free (k);
 return (a);
 }
