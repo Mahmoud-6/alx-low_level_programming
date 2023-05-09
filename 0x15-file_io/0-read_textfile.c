@@ -12,7 +12,7 @@ char *buffer;
 if (filename == NULL)
 return (0);
 buffer = malloc(sizeof(char) * letters);
-if(buffer == NULL)
+if (buffer == NULL)
 return (0);
 ope = open(filename, O_RDONLY);
 rea = read(ope, buffer, letters);
