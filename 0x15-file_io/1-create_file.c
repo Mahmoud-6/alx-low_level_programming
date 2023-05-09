@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * append_text_to_firle - function
+ * create_file - function
  * @filename: value
  * @text_content: value
  * Return: result
  */
-int append_text_to_firle(const char *filename, char *text_content)
+int create_file(const char *filename, char *text_content)
 {
 int ope, writ, l = 0;
 if (filename == NULL)
