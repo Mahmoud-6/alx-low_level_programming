@@ -19,6 +19,6 @@ ope = open(filename, O_WRONLY | O_APPEND);
 writ = write(ope, text_content, l);
 if (ope == -1 || writ == -1)
 return (-1);
-close(o);
+close(ope);
 return (1);
 }
