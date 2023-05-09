@@ -15,7 +15,7 @@ if (text_content != NULL)
 for (l = 0; text_content[l];)
 l++;
 }
-ope = open(filename, O_WRONLY | O_APPEND);
+ope = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 writ = write(ope, text_content, l);
 if (ope == -1 || writ == -1)
 return (-1);
